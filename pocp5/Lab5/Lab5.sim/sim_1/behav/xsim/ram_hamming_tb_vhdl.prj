@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"C:/Users/VIVunt/Downloads/storage-devices-master/source/storage_devices/src/task 3/RAM_Hamming.vhd" \
+"../../../../Lab5.srcs/sim_1/new/ram_hamming_TB.vhd" \
+
+# Do not sort compile order
+nosort

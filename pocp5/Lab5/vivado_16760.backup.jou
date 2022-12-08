@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Dec  3 14:50:13 2022
+# Process ID: 16760
+# Current directory: D:/7sem/pocp5/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15664 D:\7sem\pocp5\Lab5\Lab5.xpr
+# Log file: D:/7sem/pocp5/Lab5/vivado.log
+# Journal file: D:/7sem/pocp5/Lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/7sem/pocp5/Lab5/Lab5.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top fifo_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+add_files -norecurse {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/task 2.2/FIFO.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FIFO [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd}}
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/task 2.2/FIFO.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/task 2.2/FIFO.vhd}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd}}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/7sem/pocp5/Lab5/Lab5.srcs/sim_1/new/fifo_tb.vhd w ]
+add_files -fileset sim_1 D:/7sem/pocp5/Lab5/Lab5.srcs/sim_1/new/fifo_tb.vhd
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/7sem/pocp5/Lab5/Lab5.srcs/sim_1/new/fifo_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/7sem/pocp5/Lab5/Lab5.srcs/sim_1/new/fifo_tb.vhd
+update_compile_order -fileset sim_1

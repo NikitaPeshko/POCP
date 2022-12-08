@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: End of simulation
+Time: 80 ns  Iteration: 0  Process: /fifo_tb/stimulate  File: D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd
+$finish called at time : 80 ns : File "D:/7sem/pocp5/storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd" Line 62

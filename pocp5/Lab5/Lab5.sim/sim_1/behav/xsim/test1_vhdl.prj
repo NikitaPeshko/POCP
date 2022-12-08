@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../REGn/REGn.srcs/sources_1/new/DTrigger.vhd" \
+"../../../../../GenericDecoder/GenericDecoder.srcs/sources_1/new/GenericDecoder.vhd" \
+"../../../../../REGn/REGn.srcs/sources_1/new/REGn.vhd" \
+"../../../../Lab5.srcs/sources_1/new/task2_RegFile.vhd" \
+"../../../../Lab5.srcs/sim_1/new/test1.vhd" \
+
+# Do not sort compile order
+nosort

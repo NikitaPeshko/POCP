@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec  1 18:49:28 2022
+# Process ID: 24964
+# Current directory: D:/7sem/pocp5/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22888 D:\7sem\pocp5\Lab5\Lab5.xpr
+# Log file: D:/7sem/pocp5/Lab5/vivado.log
+# Journal file: D:/7sem/pocp5/Lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/7sem/pocp5/Lab5/Lab5.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Projects/Vivado_Projects/Lab5' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/7sem/pocp5/REGn/REGn.srcs/sources_1/new/DTrigger.vhd', nor could it be found using path 'D:/Projects/Vivado_Projects/REGn/REGn.srcs/sources_1/new/DTrigger.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/7sem/pocp5/GenericDecoder/GenericDecoder.srcs/sources_1/new/GenericDecoder.vhd', nor could it be found using path 'D:/Projects/Vivado_Projects/GenericDecoder/GenericDecoder.srcs/sources_1/new/GenericDecoder.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/7sem/pocp5/REGn/REGn.srcs/sources_1/new/REGn.vhd', nor could it be found using path 'D:/Projects/Vivado_Projects/REGn/REGn.srcs/sources_1/new/REGn.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/VIVunt/Downloads/storage-devices-master/source/storage_devices/src/task 2.2/FIFO.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/VIVunt/Downloads/storage-devices-master/source/storage_devices/src/task 3/RAM_Hamming.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 834.555 ; gain = 154.648
+update_compile_order -fileset sources_1
+add_files -norecurse D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/task2_RegFile.vhd D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/RAM.vhd D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/LIFO.vhd D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/RAM_Hamming.vhd D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/RAM2.vhd}
+WARNING: [filemgmt 56-12] File 'D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/task2_RegFile.vhd' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/LIFO.vhd' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/RAM2.vhd' cannot be added to the project because it already exists in the project, skipping this file
+set_property top FIFO [current_fileset]
+export_ip_user_files -of_objects  [get_files D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/LIFO.vhd] -no_script -reset -force -quiet
+remove_files  D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/LIFO.vhd
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: FIFO
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 977.098 ; gain = 106.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FIFO' [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:20]
+	Parameter word_size bound to: 8 - type: integer 
+	Parameter address_size bound to: 2 - type: integer 
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:70]
+WARNING: [Synth 8-614] signal 'is_full' is read in the process but is not in the sensitivity list [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:70]
+WARNING: [Synth 8-614] signal 'data_bus' is read in the process but is not in the sensitivity list [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:70]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:79]
+WARNING: [Synth 8-614] signal 'is_empty' is read in the process but is not in the sensitivity list [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:79]
+WARNING: [Synth 8-614] signal 'ram_storage' is read in the process but is not in the sensitivity list [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'FIFO' (1#1) [D:/7sem/pocp5/Lab5/Lab5.srcs/sources_1/new/FIFO.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1019.516 ; gain = 148.621
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1019.516 ; gain = 148.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1019.516 ; gain = 148.621
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1353.375 ; gain = 482.480
+6 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1353.375 ; gain = 482.480
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  1 18:51:42 2022...

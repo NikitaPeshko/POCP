@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab5.srcs/sources_1/new/FIFO.vhd" \
+"../../../../../storage-devices-master/source/storage_devices/src/test-bench/task 2.2/fifo_TB.vhd" \
+
+# Do not sort compile order
+nosort

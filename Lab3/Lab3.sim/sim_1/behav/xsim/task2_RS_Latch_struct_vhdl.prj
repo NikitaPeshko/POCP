@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab3.srcs/sources_1/new/NOT_OR_2.vhd" \
+"../../../../Lab3.srcs/sources_1/new/task2_RS_Trigger_struct.vhd" \
+
+# Do not sort compile order
+nosort

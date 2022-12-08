@@ -1,0 +1,7 @@
+Running: xsim.dir/task3_DLatch_struct_behav/xsimk.exe -simmode gui -wdb task3_DLatch_struct_behav.wdb -simrunnum 0 -socket 51331
+Design successfully loaded
+Design Loading Memory Usage: 6216 KB (Peak: 6216 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 14812 KB (Peak: 14812 KB)
+Simulation CPU Usage: 702 ms

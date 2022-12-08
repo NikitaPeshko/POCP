@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab3.srcs/sources_1/new/AND_2.vhd" \
+"../../../../Lab3.srcs/sources_1/new/INV.vhd" \
+"../../../../Lab3.srcs/sources_1/new/NOT_OR_2.vhd" \
+"../../../../Lab3.srcs/sources_1/new/task4_DE_LATCH_struct.vhd" \
+
+# Do not sort compile order
+nosort

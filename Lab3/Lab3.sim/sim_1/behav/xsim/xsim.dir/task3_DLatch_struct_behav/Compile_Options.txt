@@ -1,0 +1,1 @@
+-wto "98747a9a4cf745d99138974d0bac539a" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "task3_DLatch_struct_behav" "xil_defaultlib.task3_DLatch_struct" -log "elaborate.log" 

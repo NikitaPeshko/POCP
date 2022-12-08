@@ -1,0 +1,23 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 98747a9a4cf745d99138974d0bac539a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot task1_BeStable_func_synth xil_defaultlib.task1_BeStable -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.\INV_1__1\ [\INV_1__1_default\]
+Compiling architecture structure of entity xil_defaultlib.INV_1 [inv_1_default]
+Compiling architecture structure of entity xil_defaultlib.task1_bestable
+Built simulation snapshot task1_BeStable_func_synth

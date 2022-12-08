@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Oct 20 21:17:26 2022
+# Process ID: 6132
+# Current directory: D:/7sem/поцп/Lab2_dop_Decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20264 D:\7sem\поцп\Lab2_dop_Decoder\Lab2_dop_Decoder.xpr
+# Log file: D:/7sem/поцп/Lab2_dop_Decoder/vivado.log
+# Journal file: D:/7sem/поцп/Lab2_dop_Decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/7sem/поцп/Lab2_dop_Decoder/Lab2_dop_Decoder.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Projects/Vivado_Projects/Lab2_dop_Decoder' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 951.020 ; gain = 231.766
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Oct 20 21:18:11 2022] Launched synth_1...
+Run output will be captured here: D:/7sem/поцп/Lab2_dop_Decoder/Lab2_dop_Decoder.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 20 21:18:34 2022...

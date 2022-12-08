@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ae0418b9016143ebb7befff0cba5028b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot task4_test_func_synth xil_defaultlib.task4_test -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.task4_test in library work located at xsim.dir/work.

@@ -1,0 +1,7 @@
+Running: xsim.dir/GenericAdder_behav/xsimk.exe -simmode gui -wdb GenericAdder_behav.wdb -simrunnum 0 -socket 63654
+Design successfully loaded
+Design Loading Memory Usage: 6696 KB (Peak: 6696 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 15272 KB (Peak: 15272 KB)
+Simulation CPU Usage: 1061 ms
